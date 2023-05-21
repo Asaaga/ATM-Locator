@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+}
+h1{
+	border-bottom: 2px solid tomato;
+	text-align: center;
+	color: white;
+}
+.form {
+	color: tomato;
+	margin-bottom: 10px solid tomato;
+	}
+
+#map {
+	margin-top: 20px;
+}

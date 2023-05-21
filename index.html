@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nearby ATM Search</title>
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWsrRP494oFxekAKPoOBIVjtmuE2Vg2Ss&libraries=places,geometry"></script>
+</head>
+<body>
+  <h1>ATM Locator Using GPS</h1>
+  <div class="form">
+    <label for="search-input">Enter location in Makurdi:</label>
+    <input type="text" id="search-input" placeholder="Enter a location">
+    <button id="search-button">Search</button>
+  </div>
+  <div id="map"></div>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWsrRP494oFxekAKPoOBIVjtmuE2Vg2Ss&libraries=places,geometry&callback=initMap"></script>
+</body>
+</html>
